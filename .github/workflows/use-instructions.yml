@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Instructions Repo
         uses: actions/checkout@v4
         with:
-          repository: your-org/instructions-platform
+          repository: leorsv/instructions-platform
           path: instructions
 
       - name: Read Angular Instructions
