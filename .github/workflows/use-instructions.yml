@@ -1,0 +1,23 @@
+name: Use Instructions
+
+on: [push]
+
+jobs:
+  instructions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout App Repo
+        uses: actions/checkout@v4
+
+      - name: Checkout Instructions Repo
+        uses: actions/checkout@v4
+        with:
+          repository: your-org/instructions-platform
+          path: instructions
+
+      - name: Read Angular Instructions
+        run: cat instructions/instructions/angular.md
+
+      - name: Read JS Instructions
+        run: cat instructions/instructions/javascript.md
