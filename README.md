@@ -39,6 +39,6 @@ js-app (separate repo)
 ## Raw URLs (replace `YOUR_ORG` with your GitHub username/org)
 
 ```
-https://raw.githubusercontent.com/leorsv/instructions-platform/main/instructions/angular.md
-https://raw.githubusercontent.com/leorsv/instructions-platform/main/instructions/javascript.md
+https://raw.githubusercontent.com/leorsv/instructions-platform/master/instructions/angular.md
+https://raw.githubusercontent.com/leorsv/instructions-platform/master/instructions/javascript.md
 ```
